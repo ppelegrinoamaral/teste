@@ -1,0 +1,44 @@
+.patient-register {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    border-bottom: 1px solid #E6E8EB;
+    padding-bottom: 10px;
+}
+
+.patient-name {
+    border: none;
+    background-color: #f3f1f1;
+    width: 250px;
+    height: 35px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.patient-name::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #d1d2d4;
+}
+
+.patient-name:focus {
+    outline: 0;
+}
+
+.material-icons {
+    position: absolute;
+    right: 15px;
+    top: 5%;
+    color: #d1d2d4;
+}
+
+.patient-info {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 10px;
+}
