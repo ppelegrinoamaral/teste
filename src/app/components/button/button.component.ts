@@ -12,10 +12,5 @@ export class ButtonComponent implements OnInit {
   ngOnInit(): void {
 
   }
-
-  sendReminder(): void {
-    console.log('oi')
   
-  }
-
 }

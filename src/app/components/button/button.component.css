@@ -1,12 +1,29 @@
-.button-name {
+.button-name, .button-end, .button-cancel {
     width: 250px;
-    height: 50px;
-    position: absolute;
-    left: 30%;
-    top: 70%;
-    background-color: #ABA022;
+    height: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
+}
+
+.button-name {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    background-color: #ABA022;
+}
+
+.button-end {
+    position: absolute;
+    right: 2%;
+    top: 45%;
+    background-color: #31b343;
+}
+
+.button-cancel {
+    position: absolute;
+    right: 2%;
+    top: 53%;
+    background-color: #d3312b;
 }
