@@ -4,71 +4,65 @@
     height: 60%;
     left: 7%;
     background-color: #FFF;
-    margin-top: 30px;
-    border-radius: 5px;
+    margin-top: 2%;
+    border-radius: 1%;
 }
 
 .input-box {
-    margin: 0px;
-    padding: 0px 30px 20px 30px;
+    padding: 0 5% 2% 5%;
 }
 
-.input-box p {
+.input-box p, .data-title, .days-counter, .title-card {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: #1E1E1E;
 }
 
 .input-box-title {
-    margin-bottom: 40px;
-}
-
-.data-title, .days-counter {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    color: #1E1E1E;
+    margin-bottom: 10%;
 }
 
 .inputs-data {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .input-email, .input-date, .days-result {
-    height: 35px;
+    height: 35%;
     border: 0.5px solid #E6E8EB;
-    border-radius: 5px;
-    padding: 0 10px 0 10px;
-    margin: 10px 0 30px 0;
+    border-radius: 1%;
+    margin: 5% 2% 10% 2%;
 }
 
 .input-email {
-    width: 300px;
+    width: 95%;
 }
 
-.input-email::placeholder {
+.input-date {
+    width: 90%;
+}
+
+.days-result {
+    width: 20%;
+    height: 30px;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input-email::placeholder, .days-result::placeholder {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     color: #d1d2d4;
     margin-bottom: 5px;
 }
 
-.input-date {
-    width: 180px;
-}
-
-.days-result {
-    width: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.days-result::placeholder {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    color: #d1d2d4;
+.input-email:focus, .input-date:focus, .days-result:focus {
+    outline: 0;
 }
 
 .days-return {
@@ -78,27 +72,26 @@
 }
 
 .counter-description {
-    margin-left: 10px;
+    position: absolute;
+    left: 13%;
+    top: 75%;
 }
 
 .card-reminder {
-    width: 270px;
+    width: 20%;
     height: 60%;
-    margin-top: 16px;
-    padding-top: 0px;
+    margin-top: 1%;
+
     position: absolute;
     left: 55%;
     top: 23%;
-
 }
 
 .title-card {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
     font-weight: bold;
+    font-size: 18px;
     margin-top: 0px;
     padding: 0 0 15px 0;
     border-bottom: 2px solid #E6E8EB;
     border-block-start-color: #ABA022;
-
 }

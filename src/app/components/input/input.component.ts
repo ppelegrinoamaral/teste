@@ -21,7 +21,7 @@ export class InputComponent implements OnInit {
   //tentativa de função para cálculo
 
   imcCalculator(): void {
-    this.patientImc = this.patientAge / (this.patientAge * this.patientAge)
+    this.patientImc = this.patientAge / (this.patientAge * this.patientAge) //deveria ser altura
     console.log(this.patientImc)
   }
 
